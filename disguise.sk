@@ -2,6 +2,7 @@
 # You can also change the rank names, just do the same as the nicknames.
 # And change the "/rank %player% default" etc. You can change them so they work with your rank plugin. The rank pluging I used for this was PermissionsEX with a skript to make it so you can just do /rank <player> <rank>. I will post that too (I didnt make that one, a different developer made it.)
 # You can also add more preset nicknames and ranks. Just increse the virtual chest inventory size.
+# With your permissions plugin, make sure the user has access to py.disguise or whatever you change the permission to. For example, I use PermissionsEx (/pex user <player> add py.disguise)
 command /disguise:
 	permission: py.disguise
 	permission message: &cYou don't have access to disguises
