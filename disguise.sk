@@ -1,0 +1,167 @@
+command /disguise:
+	permission: py.disguise
+	permission message: &cYou don't have access to disguises
+	trigger:
+		open virtual chest inventory with size 1 named "Select a Name" to player
+		format gui slot 0 of player with white wool named "&aSmellyMiner44" to run:
+			execute console command "/nick %player% SmellyMiner44"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 1 of player with white wool named "&aEkomEn2" to run:
+			execute console command "/nick %player% EkomEn2"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 2 of player with white wool named "&aOlajIta_" to run:
+			execute console command "/nick %player% OlajIta_"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 3 of player with white wool named "&aMiniLelbat7" to run:
+			execute console command "/nick %player% MiniLelbat7"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 4 of player with white wool named "&aSetlockL" to run:
+			execute console command "/nick %player% SetlockL"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 5 of player with white wool named "&aDedeMega_doodoo" to run:
+			execute console command "/nick %player% DedeMega_doodoo"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 6 of player with white wool named "&aEsticlo0" to run:
+			execute console command "/nick %player% Esticlo0"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 7 of player with white wool named "&aMegalp0" to run:
+			execute console command "/nick %player% Megalp0"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
+		format gui slot 8 of player with red wool named "&cReset Name" with lore "&6%player%" to run:
+			execute console command "/nick %player% %player%"
+			open virtual chest inventory with size 1 named "Select a Rank" to player
+			format gui slot 0 of player with light gray wool named "&7&lDefault" to run:
+				execute console command "/rank %player% default"
+				close player's inventory
+			format gui slot 2 of player with green wool named "&2&lExplorer" to run:
+				execute console command "/rank %player% explorer"
+				close player's inventory
+			format gui slot 4 of player with lime wool named "&a&lVIP" to run:
+				execute console command "/rank %player% vip"
+				close player's inventory
+			format gui slot 6 of player with orange wool named "&2&lLegend" to run:
+				execute console command "/rank %player% legend"
+				close player's inventory
+			format gui slot 8 of player with red wool named "&lYou&c&lTube" to run:
+				execute console command "/rank %player% youtube"
+				close player's inventory
